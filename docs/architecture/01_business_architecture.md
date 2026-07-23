@@ -141,28 +141,3 @@ Odpovídá na otázku:
 
 > Co konkrétně musí být provedeno?
 
----
-
-## Tok informací
-
-```mermaid
-flowchart TD
-
-    Vision["Vision"]
-
-    Business["Business Architecture"]
-
-    Domain["Domain Model"]
-
-    Logical["Logical Data Model"]
-
-    Physical["Physical Data Model"]
-
-    Databricks["Databricks Implementation"]
-
-    Vision --> Business
-    Business --> Domain
-    Domain --> Logical
-    Logical --> Physical
-    Physical --> Databricks
-```
