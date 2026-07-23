@@ -147,17 +147,22 @@ Odpovídá na otázku:
 
 ```mermaid
 flowchart TD
-    CS[Current State]
-    RS[Rules & Standards]
-    LE[Lifecycle Evaluation]
-    RP[Replacement Planning]
-    BP[Business Plan]
-    DP[Delivery Plan]
 
-    CS --> LE
-    RS --> LE
-    CS --> RP
-    RS --> RP
-    LE --> RP
-    RP --> BP
-    RP --> DP
+    Vision["Vision"]
+
+    Business["Business Architecture"]
+
+    Domain["Domain Model"]
+
+    Logical["Logical Data Model"]
+
+    Physical["Physical Data Model"]
+
+    Databricks["Databricks Implementation"]
+
+    Vision --> Business
+    Business --> Domain
+    Domain --> Logical
+    Logical --> Physical
+    Physical --> Databricks
+```
