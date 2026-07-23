@@ -1,14 +1,14 @@
 # Business Capability Map
 
-| Capability | Účel |
-|------------|------|
-| Asset Portfolio Visibility | Přehled IT zařízení a jejich stavu. |
-| Equipment Demand Planning | Určení potřebného vybavení podle pravidel. |
-| Lifecycle & Replacement Planning | Plánování obměny zařízení. |
-| Warehouse Coverage Planning | Využití skladových zásob při obměně. |
-| Budget Planning | Odhad nákladů na obměnu. |
-| Delivery Capacity Planning | Odhad potřebné pracnosti. |
-| Business Planning Scenarios | Porovnání různých variant plánu. |
-| Business Notifications | Informování o důležitých událostech. |
-| Integration Outputs | Příprava dat pro navazující systémy. |
-| Analytics & Reporting | Přehledy a KPI pro řízení. |
+| Business capability | Účel |
+|---------------------|------|
+| Přehled zařízení | Poskytuje přehled o IT zařízeních a jejich stavu. |
+| Plánování potřeb | Určuje potřebné vybavení podle definovaných pravidel. |
+| Plánování obměny | Plánuje obměnu zařízení v čase. |
+| Plánování využití skladu | Vyhodnocuje využití skladových zásob při obměně. |
+| Plánování rozpočtu | Odhaduje náklady na plánovanou obměnu. |
+| Plánování kapacit | Odhaduje potřebnou pracnost a kapacitu. |
+| Plánovací scénáře | Umožňuje porovnávat různé varianty plánu. |
+| Notifikace | Informuje o důležitých událostech. |
+| Integrace | Připravuje podklady pro navazující systémy. |
+| Reporting | Poskytuje přehledy a KPI. |
